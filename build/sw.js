@@ -3,8 +3,8 @@ var CACHE_VERSION = 'v1';
 var CACHE_NAME = CACHE_TITLE + '-' + 'CACHE_VERSION';
 var urlsToCache = [
   '/',
-  '/build/style.css',
-  '/build/start.js'
+  'style.css',
+  'start.js'
 ];
 
 self.addEventListener('install', function(event) {
