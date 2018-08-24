@@ -1,0 +1,17 @@
+@import './variables';
+
+header {
+	background: $highlight;
+	display: flex;
+	justify-content: center;
+	min-height: 60px;
+	color: $text;
+	padding: 10px;
+	text-align: center;
+
+	h1 {
+		margin: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
